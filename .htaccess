@@ -17,6 +17,9 @@ Options -Indexes
      RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*acunetix-referrer\.com.*? [NC]
      RewriteRule ^(.*)$ http://acunetix-referrer.com/ [L]
 
+     RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*adcash\.com [NC]
+     RewriteRule ^(.*)$ http://adcash.com/ [L]
+
      RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*adelly\.bg.*? [NC]
      RewriteRule ^(.*)$ http://adelly.bg/ [L]
 
@@ -65,6 +68,9 @@ Options -Indexes
      RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*cbcseward\.com.*? [NC]
      RewriteRule ^(.*)$ http://cbcseward.com/ [L]
 
+     RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*cenokos\.ru [NC]
+     RewriteRule ^(.*)$ http://cenokos.ru/ [L]
+
      RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*cenoval\.ru.*? [NC]
      RewriteRule ^(.*)$ http://cenoval.ru/ [L]
 
@@ -73,6 +79,9 @@ Options -Indexes
 
      RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*cherubinimobili\.it.*? [NC]
      RewriteRule ^(.*)$ http://cherubinimobili.it/ [L]
+
+     RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*cityadspix\.com [NC]
+     RewriteRule ^(.*)$ http://cityadspix.com/ [L]
 
      RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*clmforexeu\.com.*? [NC]
      RewriteRule ^(.*)$ http://clmforexeu.com/ [L]
@@ -84,7 +93,10 @@ Options -Indexes
      RewriteRule ^(.*)$ http://darodar.com/ [L]
 
      RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*descargar-musicas-gratis\.com*? [NC]
-     RewriteRule ^(.*)$ http://descargar-musicas-gratis.co/ [L]
+     RewriteRule ^(.*)$ http://descargar-musicas-gratis.com/ [L]
+
+     RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*edakgfvwql\.ru [NC]
+     RewriteRule ^(.*)$ http://edakgfvwql.ru/ [L]
 
      RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*econom\.co.*? [NC]
      RewriteRule ^(.*)$ http://econom.co/ [L]
@@ -128,6 +140,9 @@ Options -Indexes
      RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*funnypica\.com.*? [NC]
      RewriteRule ^(.*)$ http://funnypica.com/ [L]
 
+     RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*gobongo\.info [NC]
+     RewriteRule ^(.*)$ http://gobongo.info/ [L]
+
      RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*gototal\.co.nz.*? [NC]
      RewriteRule ^(.*)$ http://gototal.co.nz/ [L]
 
@@ -149,14 +164,8 @@ Options -Indexes
      RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*humanorightswatch\.org.*? [NC]
      RewriteRule ^(.*)$ http://humanorightswatch.org/ [L]
 
-     RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*ilovevitaly\.co.*? [NC]
-     RewriteRule ^(.*)$ http://ilovevitaly.co/ [L]
-
-     RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*ilovevitaly\.com.*? [NC]
+     RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*ilovevitaly\..*? [NC]
      RewriteRule ^(.*)$ http://ilovevitaly.com/ [L]
-
-     RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*ilovevitaly\.ru.*? [NC]
-     RewriteRule ^(.*)$ http://ilovevitaly.ru/ [L]
 
      RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*iminent\.com.*? [NC]
      RewriteRule ^(.*)$ http://iminent.com/ [L]
@@ -209,6 +218,9 @@ Options -Indexes
      RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*lumb\.co*? [NC]
      RewriteRule ^(.*)$ http://lumb.co/ [L]
 
+     RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*luxup\.ru [NC]
+     RewriteRule ^(.*)$ http://luxup.ru/ [L]
+
      RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*mainlinehobby\.net.*? [NC]
      RewriteRule ^(.*)$ http://mainlinehobby.net/ [L]
 
@@ -236,6 +248,9 @@ Options -Indexes
      RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*musicprojectfoundation\.com.*? [NC]
      RewriteRule ^(.*)$ http://musicprojectfoundation.com/ [L]
 
+     RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*myftpupload\.com [NC]
+     RewriteRule ^(.*)$ http://myftpupload.com/ [L]
+
      RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*myprintscreen\.com.*? [NC]
      RewriteRule ^(.*)$ http://myprintscreen.com/ [L]
 
@@ -245,8 +260,11 @@ Options -Indexes
      RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*noumeda\.com.*? [NC]
      RewriteRule ^(.*)$ http://noumeda.com/ [L]
 
-     RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*o-o-6-o-o\.com.*? [NC]
+     RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*o-o-6-o-o\..*? [NC]
      RewriteRule ^(.*)$ http://o-o-6-o-o.com/ [L]
+
+     RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*o-o-8-o-o\.ru [NC]
+     RewriteRule ^(.*)$ http://o-o-8-o-o.ru/ [L]
 
      RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*openfrost\.com.*? [NC]
      RewriteRule ^(.*)$ http://openfrost.com/ [L]
@@ -269,41 +287,50 @@ Options -Indexes
      RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*realting-moscow\.ru.*? [NC]
      RewriteRule ^(.*)$ http://realting-moscow.ru/ [L]
 
+     RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*responsinator\.com [NC]
+     RewriteRule ^(.*)$ http://responsinator.com/ [L]
+
      RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*retreatia\.com.*? [NC]
      RewriteRule ^(.*)$ http://retreatia.com/ [L]
 
-     RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*savetubevideo\.com.*? [NC]
+     RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*годом\.рф [NC]
+     RewriteRule ^(.*)$ http://годом.рф/ [L]
+
+     RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*savetubevideo\..*? [NC]
      RewriteRule ^(.*)$ http://savetubevideo.com/ [L]
 
-     RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*savetubevideo\.info*? [NC]
-     RewriteRule ^(.*)$ http://savetubevideo.inf/ [L]
+     RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*screentoolkit\.com [NC]
+     RewriteRule ^(.*)$ http://screentoolkit.com/ [L]
 
      RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*see-your-website-here\.com*? [NC]
-     RewriteRule ^(.*)$ http://see-your-website-her.com/ [L]
+     RewriteRule ^(.*)$ http://see-your-website-here.com/ [L]
 
      RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*semalt\.com.*? [NC]
      RewriteRule ^(.*)$ http://semalt.com/ [L]
+
+     RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*seoexperimenty\.ru [NC]
+     RewriteRule ^(.*)$ http://seoexperimenty.ru/ [L]
 
      RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*setioweb\.com.*? [NC]
      RewriteRule ^(.*)$ http://setioweb.com/ [L]
 
      RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*simple-share-buttons\.com*? [NC]
-     RewriteRule ^(.*)$ http://simple-share-buttos.co/ [L]
+     RewriteRule ^(.*)$ http://simple-share-buttons.com/ [L]
+
+     RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*slftsdybbg\.ru [NC]
+     RewriteRule ^(.*)$ http://slftsdybbg.ru/ [L]
 
      RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*smailik\.org.*? [NC]
      RewriteRule ^(.*)$ http://smailik.org/ [L]
 
+     RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*socialseet\.ru [NC]
+     RewriteRule ^(.*)$ http://socialseet.ru/ [L]
+
      RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*social-buttons\.com.*? [NC]
      RewriteRule ^(.*)$ http://social-buttons.com/ [L]
 
-     RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*softomix\.com.*? [NC]
+     RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*softomix\..*? [NC]
      RewriteRule ^(.*)$ http://softomix.com/ [L]
-
-     RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*softomix\.net.*? [NC]
-     RewriteRule ^(.*)$ http://softomix.net/ [L]
-
-     RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*softomix\.ru.*? [NC]
-     RewriteRule ^(.*)$ http://softomix.ru/ [L]
 
      RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*sonyelektronik\.com.*? [NC]
      RewriteRule ^(.*)$ http://sonyelektronik.com/ [L]
@@ -317,6 +344,9 @@ Options -Indexes
      RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*streha-metalko\.si.*? [NC]
      RewriteRule ^(.*)$ http://streha-metalo.si/ [L]
 
+     RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*superiends\.org [NC]
+     RewriteRule ^(.*)$ http://superiends.org/ [L]
+
      RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*susanholtphotography\.com.*? [NC]
      RewriteRule ^(.*)$ http://susanholtphotography.com/ [L]
 
@@ -324,7 +354,7 @@ Options -Indexes
      RewriteRule ^(.*)$ http://tastyfoodideas.com/ [L]
 
      RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*teastory\.co.*? [NC]
-     RewriteRule ^(.*)$ http://teastoy.co/ [L]
+     RewriteRule ^(.*)$ http://teastory.co/ [L]
 
      RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*thecoral\.com\.br.*? [NC]
      RewriteRule ^(.*)$ http://thecoral.com.br/ [L]
@@ -347,14 +377,17 @@ Options -Indexes
      RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*vapmedia\.org.*? [NC]
      RewriteRule ^(.*)$ http://vapmedia.org/ [L]
 
-     RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*videofrost\.com.*? [NC]
+     RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*videofrost\..*? [NC]
      RewriteRule ^(.*)$ http://videofrost.com/ [L]
 
-     RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*videofrost\.net.*? [NC]
-     RewriteRule ^(.*)$ http://videofrost.net/ [L]
+     RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*vodkoved\.ru [NC]
+     RewriteRule ^(.*)$ http://vodkoved.ru/ [L]
 
      RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*website-errors-scanner\.com.*? [NC]
      RewriteRule ^(.*)$ http://website-errors-scanner.com/ [L]
+
+     RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*websocial\.me [NC]
+     RewriteRule ^(.*)$ http://websocial.me/ [L]
 
      RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*williamrobsonproperty\.com.*? [NC]
      RewriteRule ^(.*)$ http://williamrobsonproperty.com/ [L]
@@ -364,6 +397,9 @@ Options -Indexes
 
      RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*xn--q1a\.xn--b1aube0e\.xn--c1acygb\.xn--p1ai.*? [NC]
      RewriteRule ^(.*)$ http://xn--q1a.xn--b1aube0e.xn--c1acygb.xn-p1ai/ [L]
+
+     RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*ykecwqlixx\.ru [NC]
+     RewriteRule ^(.*)$ http://ykecwqlixx.ru/ [L]
 
      RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*yougetsignal\.com*? [NC]
      RewriteRule ^(.*)$ http://yougetsignal.co/ [L]
